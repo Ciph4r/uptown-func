@@ -251,6 +251,8 @@ describe('twoValues', () => {
     expect(fibs).toEqual([1, 1, 2, 3, 5, 8, 13]);
 
     expect(twoValues('Colin', 'Jaffe', makeFullName)).toEqual('Colin Jaffe')
+    makeFullName('Colin',)
+    makeFullName('Jaffe')
   })
 });
 
